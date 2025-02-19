@@ -1,34 +1,11 @@
-.body_container {
-  width: 90%;
-  margin: 0 auto;
-}
-
-@media (min-width: 412px) and (max-width: 1105px) {
-  .body_container {
-    width: 60%;
-  }
-}
-
 .main_container {
   display: flex;
   flex-direction: row;
 }
 
-@media (min-width: 412px) and (max-width: 1105px) {
-  .main_container {
-    flex-direction: column;
-  }
-}
-
 .container_phase_1 {
   display:flex;
   flex-direction:column;
-}
-
-@media (min-width: 412px) and (max-width: 1105px) {
-  .container_phase_1 {
-    order: 2;
-  }
 }
 
 
@@ -39,16 +16,6 @@
   border-radius: 1rem;
   margin-right: 1.5rem;
   width: 20rem;
-}
-
-@media (min-width: 412px) and (max-width: 1105px) {
-  .first_section {
-    width: 35rem;
-    margin-bottom: 2rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    margin-right: 0;
-  }
 }
 
 .first_section_image,
@@ -81,34 +48,14 @@
   width: 20rem;
 }
 
-@media (min-width: 412px) and (max-width: 1105px) {
-  .second_section {
-    width: 35rem;
-    margin-bottom: 2rem;
-    margin-right: 0;
-  }
-}
-
 .second_text {
   margin-bottom: 2.5rem;
-}
-
-@media (min-width: 412px) and (max-width: 1105px) {
-  .second_section {
-    text-align: center;
-  }
 }
 
  /*This will be the end of phase 1*/
 
 .container_phase_2 {
   margin-right: 1.5rem;
-}
-
-@media (min-width: 412px) and (max-width: 1105px) {
-  .container_phase_2{
-    margin-right: 0;
-  }
 }
 
 .break_point_main {
@@ -121,12 +68,6 @@
   flex-direction: row;
 }
 
-@media (min-width: 412px) and (max-width: 1105px) {
-  .break_point{
-    flex-direction: column;
-  }
-}
-
 /* This is the third section of phase 2, this is divided into the amount of cards we have on the bento grid*/
 .third_section {
   background-color: rgb(134, 15, 231);
@@ -136,13 +77,6 @@
   justify-items: center;
   margin-bottom: 1.5rem;
   width: 45.5rem;
-}
-
-@media (min-width: 412px) and (max-width: 1105px) {
-  .third_section {
-    width: 35rem;
-    margin-bottom: 2rem;
-  }
 }
 
 .third_section_image {
@@ -178,12 +112,6 @@
   flex-direction: row;
 }
 
-@media (min-width: 412px) and (max-width: 1105px) {
-  .category_1 {
-    flex-direction: column;
-  }
-}
-
 .fourth_section {
   background-color: rgb(255, 255, 255);
   padding: 2rem 2rem 2rem 2rem;
@@ -193,14 +121,6 @@
   margin-right: 1.5rem;
   width: 20rem;
   overflow: hidden;
-}
-
-@media (min-width: 412px) and (max-width: 1105px) {
-  .fourth_section {
-    width: 35rem;
-    margin-bottom: 2rem;
-    margin-right: 0;
-  }
 }
 
 .fourth_section_image {
@@ -218,13 +138,6 @@
   width: 20rem;
 }
 
-@media (min-width: 412px) and (max-width: 1105px) {
-  .fourth_text {
-    width: 35rem;
-    text-align: center;
-  }
-}
-
 /* This is the fifth section of phase 2, this is divided into the amount of cards we have on the bento grid*/
 .fifth_section {
   background-color: rgb(247, 205, 90);
@@ -237,13 +150,6 @@
   overflow: hidden;
 }
 
-@media (min-width: 412px) and (max-width: 1105px) {
-  .fifth_section {
-    width: 35rem;
-    margin-bottom: 2rem;
-  }
-}
-
 .fifth_text {
   font-weight:600;
   font-size: 3rem;
@@ -253,21 +159,8 @@
   width: 15rem;
 }
 
-@media (min-width: 412px) and (max-width: 1105px) {
-  .fifth_text {
-    width: 35rem;
-    text-align: center;
-  }
-}
-
 .fifth_section_image {
   width: 20rem;
-}
-
-@media (min-width: 412px) and (max-width: 1105px) {
-  .fifth_section_image {
-    width: 25rem;
-  }
 }
 
 /* This is the sixth section of phase 2, this is divided into the amount of cards we have on the bento grid*/
@@ -279,14 +172,6 @@
   border-radius: 1rem;
   width: 25rem;
   overflow: clip;
-}
-
-@media (min-width: 412px) and (max-width: 1105px) {
-  .container_phase_3 {
-    width: 35rem;
-    margin-bottom: 2rem;
-    align-items: center;
-  }
 }
 
 .sixth_text {
@@ -310,23 +195,11 @@
   margin-top: 2rem;
 }
 
-@media (min-width: 412px) and (max-width: 1105px) {
-  .sixth_text_body {
-    text-align: center;
-  }
-}
-
 /*This section is phase 4*/
 .phase_4_category_1 {
   display: flex;
   flex-direction: row;
   margin-top: 1.5rem;
-}
-
-@media (min-width: 412px) and (max-width: 1105px) {
-  .phase_4_category_1{
-    flex-direction: column;
-  }
 }
 
 /*This is the seventh section*/
@@ -337,14 +210,6 @@
   text-align: left;
   justify-content: center;
   margin-right: 1.5rem;
-}
-
-@media (min-width: 412px) and (max-width: 1105px) {
-  .seventh_section {
-    width: 35rem;
-    margin-bottom: 2rem;
-    margin-right: 0;
-  }
 }
 
 .seventh_text {
@@ -374,20 +239,6 @@
   width: 50.5rem;
 }
 
-@media (min-width: 412px) and (max-width: 1105px) {
-  .phase_4_category_2 {
-    width: 35rem;
-    margin-bottom: 2rem;
-    flex-direction: column;
-  }
-}
-
-@media (min-width: 412px) and (max-width: 1105px) {
-  .phase_4_category_2 {
-    order: -1;
-  }
-}
-
 .eight_section_image {
   width: 20rem;
 }
@@ -398,10 +249,5 @@
   color: white;
 }
 
-@media (min-width: 412px) and (max-width: 1105px) {
-  .eight_section_text {
-    text-align: center;
-  }
-}
 
 
